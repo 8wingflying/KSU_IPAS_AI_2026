@@ -11,6 +11,8 @@ $$ \left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0} $$
 
 $$\frac{a-1}{b-1} \quad and \quad {a+1\over b+1}$$
 
+$$ f(x_1,x_2,\underbrace{\ldots}_{\rm ldots} ,x_n) = x_1^2 + x_2^2 + \underbrace{\cdots}_{\rm cdots} + x_n^2 $$
+
 $$
 \begin{pmatrix}
 x \\
