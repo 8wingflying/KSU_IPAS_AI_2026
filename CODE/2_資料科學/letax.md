@@ -57,9 +57,11 @@ x \\
 y \\
 1
 \end{pmatrix}
+$$
 
 =
 
+$$
 \begin{pmatrix}
 f & 0 & O_x \\
 0 & f & O_y \\
