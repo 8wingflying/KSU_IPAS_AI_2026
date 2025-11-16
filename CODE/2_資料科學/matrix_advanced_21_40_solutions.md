@@ -64,25 +64,27 @@ A 同上。
 
 1. 對 \(\lambda_1 = 5\)：求 \((A-5I)v=0\)
 
-\\[
+$$
 A-5I = \begin{bmatrix}-1 & 1 \\ 2 & -2\end{bmatrix}
-\\]
+$$
 
 解：
-\\[
+
+$$
 - x + y = 0 \Rightarrow y = x
-\\]
+$$
 
 故特徵向量可取：
-\\[
+
+$$
 v_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}
-\\]
+$$
 
 2. 對 \(\lambda_2 = 2\)：求 \((A-2I)v=0\)
 
-\\[
+$$
 A-2I = \begin{bmatrix}2 & 1 \\ 2 & 1\end{bmatrix}
-\\]
+$$
 
 解：
 \\[
