@@ -344,7 +344,13 @@ $$
 
 ### 第 27 題：判斷是否可對角化
 
-A = \\(\begin{bmatrix}5 & 4\\1 & 2\end{bmatrix}\\)
+$$
+A = \begin{pmatrix}
+5 & 4\\
+1 & 2
+\end{pmatrix}
+$$
+
 
 **解答：**
 
