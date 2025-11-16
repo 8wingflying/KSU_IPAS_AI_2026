@@ -17,7 +17,7 @@ $$\vec{a} \cdot \vec{b}=0$$
 
 #### 微積分
 
-$$\int_0^1 {x^2} \,{\rm d}x $$
+$$\int_0^1 {x^2} {\rm d}x $$
 
 $$\frac{\partial x}{\partial y} $$  
 
