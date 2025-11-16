@@ -81,13 +81,16 @@ $$
 解：
 
 $$ 
-- x + y = 0 \Rightarrow y = x 
+- x + y = 0  \Rightarrow  y = x 
 $$
 
 故特徵向量可取：
 
 $$
-v_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}
+v_1 = \begin{pmatrix}
+1 \\ 
+1
+\end{pmatrix}
 $$
 
 2. 對 $\lambda_2 = 2$：求 $(A-2I)v=0$
