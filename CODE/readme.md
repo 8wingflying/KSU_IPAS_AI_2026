@@ -8,4 +8,10 @@
 # 機器學習
 # 深度學習
 
+# 其他主題
+- streamlit
+  - https://github.com/MyDearGreatTeacher/streamlit
+- flask
+- gradio 
+
 
