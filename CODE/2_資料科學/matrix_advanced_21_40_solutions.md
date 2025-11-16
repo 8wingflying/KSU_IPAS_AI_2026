@@ -80,7 +80,9 @@ $$
 
 解：
 
-$ - x + y = 0 \Rightarrow y = x $
+$$ 
+- x + y = 0 \Rightarrow y = x 
+$$
 
 故特徵向量可取：
 
@@ -91,7 +93,10 @@ $$
 2. 對 $\lambda_2 = 2$：求 $(A-2I)v=0$
 
 $$
-A-2I = \begin{bmatrix}2 & 1 \\ 2 & 1\end{bmatrix}
+A-2I = \begin{pmatrix}
+2 & 1 \\ 
+2 & 1
+\end{pmatrix}
 $$
 
 解：
