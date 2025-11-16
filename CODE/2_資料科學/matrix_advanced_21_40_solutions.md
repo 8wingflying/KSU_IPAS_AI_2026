@@ -168,10 +168,13 @@ $$
 
 **(2) 特徵向量**
 
-- 對 \(\lambda_1 = 3\)：
+- 對 $\lambda_1 = 3$：
 
 $$
-A-3I = \begin{bmatrix}-1 & 1\\1 & -1\end{bmatrix}
+A-3I = \begin{pmatrix}
+-1 & 1
+\\1 & -1
+\end{pmatrix}
 $$
 
 $$
@@ -182,7 +185,7 @@ $$
 v_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}
 $$
 
-- 對 \(\lambda_2 = 1\)：
+- 對 $\lambda_2 = 1$：
 
 $$
 A-I = \begin{pmatrix}
@@ -207,8 +210,14 @@ $$
 令
 
 $$
-P = \begin{bmatrix}1 & 1\\1 & -1\end{bmatrix},\
-D = \begin{bmatrix}3 & 0\\0 & 1\end{bmatrix}
+P = \begin{pmatrix}
+1 & 1\\
+1 & -1
+\end{pmatrix},\
+D = \begin{pmatrix}
+3 & 0\\
+0 & 1
+\end{pmatrix}
 $$
 
 則有：
