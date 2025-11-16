@@ -5,7 +5,8 @@
 
 ## 範例
 
-$$\left[ \begin{matrix}
+$$
+\left[ \begin{matrix}
 × | |
 y 11
 1
@@ -22,7 +23,8 @@ f & 0 & O_x | |
 \bar {y} \\
 Z
 \end{matrix}
-\right] \tag{1}$$
+\right] 
+$$
 
 
 $$
