@@ -136,8 +136,8 @@ vals, vecs  # vecs 的每一欄為對應特徵向量
 
 $$
 A = \begin{pmatrix}
-2 & 1
-\\1 & 2
+2 & 1 \\ 
+1 & 2
 \end{pmatrix}
 $$
 
