@@ -257,7 +257,12 @@ $$
 $$
 (A-I)v = 0
 = \begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}
-\begin{bmatrix}x\\y\end{bmatrix}
+
+\begin{pmatrix}
+x\\
+y
+\end{pmatrix}
+
 = 0
 \Rightarrow y = 0,\ x \text{ 任意}
 $$
@@ -265,7 +270,10 @@ $$
 特徵空間：
 
 $$
-v = \begin{bmatrix}1\\0\end{bmatrix}t
+v = \begin{pmatrix}
+1\\
+0
+\end{pmatrix}t
 $$
 
 幾何重數為 1 (只有一個線性獨立特徵向量)，小於代數重數 2  
