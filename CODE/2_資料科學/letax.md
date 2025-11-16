@@ -32,7 +32,7 @@ $$
 \begin{array}{cc}
 \mathrm{Bad} & \mathrm{Better} \\
 \hline \\
-\int_0^1 x^2 dx & \int_0^1 x^2 \,{\rm d}x
+\int_0^1 x^2 dx & \int_0^1 x^2 {\rm d}x
 \end{array}
 $$
 
