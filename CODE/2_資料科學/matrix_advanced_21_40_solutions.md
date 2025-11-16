@@ -134,68 +134,88 @@ vals, vecs  # vecs 的每一欄為對應特徵向量
 
 ### 第 23 題：對稱矩陣必可對角化
 
-A = \\(\begin{bmatrix}2 & 1\\1 & 2\end{bmatrix}\\)
+$$
+A = \begin{pmatrix}
+2 & 1
+\\1 & 2
+\end{pmatrix}
+$$
 
 **(1) 特徵值**
 
-\\[
+$$
 \det(A-\lambda I) = 
 \begin{vmatrix}
 2-\lambda & 1\\
 1 & 2-\lambda
 \end{vmatrix}
 = (2-\lambda)^2 - 1
-\\]
+$$
 
 令其為 0：
-\\[
+
+$$
 (2-\lambda)^2 - 1 = 0
-\\]
-\\[
+$$
+
+$$
 (2-\lambda)^2 = 1 \Rightarrow 2-\lambda = \pm 1
-\\]
-\\[
+$$
+
+$$
 \Rightarrow \lambda_1 = 3,\ \lambda_2 = 1
-\\]
+$$
 
 **(2) 特徵向量**
 
 - 對 \(\lambda_1 = 3\)：
 
-\\[
+$$
 A-3I = \begin{bmatrix}-1 & 1\\1 & -1\end{bmatrix}
-\\]
-\\[
-- x + y = 0 \Rightarrow y = x
-\\]
-\\[
+$$
+
+$$
+-x + y = 0 \Rightarrow y = x
+$$
+
+$$
 v_1 = \begin{bmatrix}1 \\ 1\end{bmatrix}
-\\]
+$$
 
 - 對 \(\lambda_2 = 1\)：
 
-\\[
-A-I = \begin{bmatrix}1 & 1\\1 & 1\end{bmatrix}
-\\]
-\\[
+$$
+A-I = \begin{pmatrix}
+1 & 1\\
+1 & 1
+\end{pmatrix}
+$$
+
+$$
 x + y = 0 \Rightarrow y = -x
-\\]
-\\[
-v_2 = \begin{bmatrix}1 \\ -1\end{bmatrix}
-\\]
+$$
+
+$$
+v_2 = \begin{pmatrix}
+1 \\ 
+-1
+\end{pmatrix}
+$$
 
 **(3) 寫出對角化**
 
 令
-\\[
+
+$$
 P = \begin{bmatrix}1 & 1\\1 & -1\end{bmatrix},\
 D = \begin{bmatrix}3 & 0\\0 & 1\end{bmatrix}
-\\]
+$$
 
 則有：
-\\[
+
+$$
 A = P D P^{-1}
-\\]
+$$
 
 (可另外計算 \(P^{-1}\) 驗證。)
 
@@ -203,35 +223,41 @@ A = P D P^{-1}
 
 ### 第 24 題：不可對角化矩陣範例
 
-A = \\(\begin{bmatrix}1 & 1\\0 & 1\end{bmatrix}\\)
+$$
+A = \begin{pmatrix}
+1 & 1 \\
+0 & 1
+\end{pmatrix}
+$$
 
 **(1) 特徵值**
 
-\\[
+$$
 \det(A-\lambda I) = 
 \begin{vmatrix}
 1-\lambda & 1\\
 0 & 1-\lambda
 \end{vmatrix}
 = (1-\lambda)^2
-\\]
+$$
 
 故只有單一特徵值 \(\lambda = 1\)，其代數重數為 2。
 
 **(2) 特徵向量與是否可對角化**
 
-\[
+$$
 (A-I)v = 0
 = \begin{bmatrix}0 & 1\\0 & 0\end{bmatrix}
 \begin{bmatrix}x\\y\end{bmatrix}
 = 0
 \Rightarrow y = 0,\ x \text{ 任意}
-\]
+$$
 
 特徵空間：
-\\[
+
+$$
 v = \begin{bmatrix}1\\0\end{bmatrix}t
-\\]
+$$
 
 幾何重數為 1 (只有一個線性獨立特徵向量)，小於代數重數 2  
 → **不可對角化**。
