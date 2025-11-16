@@ -43,7 +43,7 @@ $$
 $$
 
 $$
-\require{cancel}\begin{array}{rl}
+\begin{array}{rl}
 \verb|y+\cancel{x}| & y+\cancel{x}\\
 \verb|\cancel{y+x}| & \cancel{y+x}\\
 \verb|y+\bcancel{x}| & y+\bcancel{x}\\
