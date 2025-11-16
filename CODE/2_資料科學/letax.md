@@ -11,3 +11,20 @@ a+b & c     & 9   \\
 8   & 7     & z_1 \\
 \end{matrix}
 $$
+
+$$
+\begin{vmatrix}
+x & y \\
+z & v
+\end{vmatrix}
+$$
+
+$$
+\begin{array}{|c|c||c|} a & b & S \\
+\hline
+0&0&1\\
+0&1&1\\
+1&0&1\\
+1&1&0\\
+\end{array}
+$$
