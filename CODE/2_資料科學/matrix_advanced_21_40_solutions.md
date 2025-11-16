@@ -81,7 +81,7 @@ $$
 解：
 
 $$
-x -  y = 0  \Rightarrow  y = x 
+-x +  y = 0  \Rightarrow  y = x 
 $$
 
 故特徵向量可取：
