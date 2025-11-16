@@ -5,6 +5,26 @@
 
 ## 範例
 
+$$\left[ \begin{matrix}
+× | |
+y 11
+1
+\end{matrix}
+\right] = \left[
+\begin{matrix}
+f & 0 & O_x | |
+0 & f & O_y\ \
+0 & 0 & 1
+\end{matrix}
+\right] \left[
+\begin{matrix}
+\bar{x} \\
+\bar {y} \\
+Z
+\end{matrix}
+\right] \tag{1}$$
+
+
 $$
 \begin{bmatrix}
 a & b \\
