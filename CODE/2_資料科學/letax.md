@@ -6,22 +6,22 @@
 ## 範例
 
 $$
-\begin{bmatrix}
+\begin{pmatrix}
 x \\
 y \\
 1
-\end{bmatrix}
+\end{pmatrix}
 =
-\begin{bmatrix}
+\begin{pmatrix}
 f & 0 & O_x \\
 0 & f & O_y \\
 0 & 0 & 1
-\end{bmatrix}
-\begin{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
 \bar{x} \\
 \bar{y} \\
 z
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 $$
