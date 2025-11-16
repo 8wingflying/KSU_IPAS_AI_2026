@@ -266,14 +266,14 @@ $$
 
 ### 第 25 題：3×3 特徵值
 
+$$
 A =
-\\[
 \begin{bmatrix}
 3 & 0 & 0\\
 0 & 2 & 1\\
 0 & 1 & 2
 \end{bmatrix}
-\\]
+$$
 
 **解答：**
 
@@ -293,28 +293,36 @@ A =
 
 ### 第 26 題：trace / det 與特徵值關係
 
-A = \\(\begin{bmatrix}2 & 1\\1 & 2\end{bmatrix}\\)  
+$$
+A = \begin{pmatrix}
+2 & 1\\
+1 & 2
+\end{pmatrix}
+$$
+
 前面求得特徵值：\(\lambda_1 = 3, \lambda_2 = 1\)
 
 **驗證：**
 
 - trace：
 
-\\[
+$$
 \text{tr}(A) = 2 + 2 = 4
-\\]
-\\[
+$$
+
+$$
 \lambda_1 + \lambda_2 = 3 + 1 = 4
-\\]
+$$
 
 - determinant：
 
-\\[
+$$
 \det(A) = 2\cdot 2 - 1\cdot 1 = 4 - 1 = 3
-\\]
-\\[
+$$
+
+$$
 \lambda_1 \lambda_2 = 3 \cdot 1 = 3
-\\]
+$$
 
 兩者皆符合  
 → 驗證「特徵值之和＝trace」、「特徵值之積＝det」。
@@ -333,30 +341,34 @@ A = \\(\begin{bmatrix}5 & 4\\1 & 2\end{bmatrix}\\)
 
 先求特徵值：
 
-\\[
+$$
 \det(A-\lambda I) =
 \begin{vmatrix}
 5-\lambda & 4\\
 1 & 2-\lambda
 \end{vmatrix}
 = (5-\lambda)(2-\lambda) - 4
-\\]
-\\[
+$$
+
+$$
 = (10 - 7\lambda + \lambda^2) - 4
 = \lambda^2 - 7\lambda + 6
-\\]
+$$
 
 解：
-\\[
+
+$$
 \lambda^2 - 7\lambda + 6 = 0
-\\]
-\\[
+$$
+
+$$
 \lambda = \frac{7 \pm \sqrt{49-24}}{2}
 = \frac{7 \pm 5}{2}
-\\]
-\\[
+$$
+
+$$
 \Rightarrow \lambda_1 = 6,\ \lambda_2 = 1
-\\]
+$$
 
 兩個特徵值皆不相同 → 幾何重數一定為 1+1  
 → **A 可對角化**。
@@ -368,24 +380,27 @@ A = \\(\begin{bmatrix}5 & 4\\1 & 2\end{bmatrix}\\)
 同第 27 題 A。  
 由對角化 \(A = P D P^{-1}\)，則
 
-\\[
+$$
 A^{10} = P D^{10} P^{-1}
-\\]
+$$
 
 D 為對角矩陣：
-\\[
+
+$$
 D = \begin{bmatrix}6 & 0\\0 & 1\end{bmatrix}
-\\]
-\\[
+$$
+
+$$
 D^{10} = \begin{bmatrix}6^{10} & 0\\0 & 1^{10}\end{bmatrix}
 = \begin{bmatrix}6^{10} & 0\\0 & 1\end{bmatrix}
-\\]
+$$
 
 實際上要算出數值矩陣，需要求出 P 與 \(P^{-1}\)，  
 但**理論上**已可表示：
-\\[
+
+$$
 A^{10} = P \begin{bmatrix}6^{10} & 0\\0 & 1\end{bmatrix} P^{-1}
-\\]
+$$
 
 **Python 驗算（直接次方）：**
 ```python
@@ -402,17 +417,16 @@ np.linalg.matrix_power(A, 10)
 
 ### 第 29 題：奇異值
 
-A =
-\\[
-\begin{bmatrix}
+$$
+A =\begin{pmatrix}
 3 & 4\\
 0 & 0
-\end{bmatrix}
-\\]
+\end{pmatrix}
+$$
 
 奇異值為 \(\sqrt{A^T A}\) 的特徵值開根號。
 
-\\[
+$$
 A^T A =
 \begin{bmatrix}
 3 & 0\\
@@ -427,23 +441,24 @@ A^T A =
 9 & 12\\
 12 & 16
 \end{bmatrix}
-\\]
+$$
 
 求 \(A^T A\) 特徵值：
 
-\\[
+$$
 \det(A^T A - \lambda I) =
 \begin{vmatrix}
 9-\lambda & 12\\
 12 & 16-\lambda
 \end{vmatrix}
 = (9-\lambda)(16-\lambda) - 144
-\\]
-\\[
+$$
+
+$$
 = (144 - 25\lambda + \lambda^2) - 144
 = \lambda^2 - 25\lambda
 = \lambda(\lambda - 25)
-\\]
+$$
 
 故特徵值為 25, 0。  
 奇異值為其非負平方根：
