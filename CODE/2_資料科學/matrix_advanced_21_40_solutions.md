@@ -44,8 +44,8 @@ $$
 $$
 
 故  
-- \(\lambda_1 = 5\)  
-- \(\lambda_2 = 2\)
+- $\lambda_1 = 5$ 
+- $\lambda_2 = 2$
 
 **Python 驗算：**
 ```python
