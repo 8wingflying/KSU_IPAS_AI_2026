@@ -6,7 +6,8 @@
 ## 範例
 
 $$
-\left[ \begin{matrix}
+\left[ 
+\begin{matrix}
 × | |
 y 11
 1
