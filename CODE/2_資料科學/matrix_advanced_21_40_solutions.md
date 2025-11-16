@@ -866,39 +866,41 @@ $$
 
 $$
 P^2 =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0\\
 0 & 0
-\end{bmatrix}
-\begin{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
 1 & 0\\
 0 & 0
-\end{bmatrix}
+\end{pmatrix}
 =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0\\
 0 & 0
-\end{bmatrix}
+\end{pmatrix}
 = P
 $$
 
 **(2) 投影空間說明：**
 
-任意向量 \\(x = [x_1, x_2]^T\\) 經 P 映射：
+任意向量 $ x = [x_1, x_2]^T $ 經 P 映射：
 
 $$
 Px =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & 0\\
 0 & 0
-\end{bmatrix}
-\begin{bmatrix}
-x_1\\x_2
-\end{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
+x_1\\
+x_2
+\end{pmatrix}
 =
-\begin{bmatrix}
-x_1\\0
-\end{bmatrix}
+\begin{pmatrix}
+x_1\\
+0
+\end{pmatrix}
 $$
 
 可見 P 將所有向量投影到 x 軸方向（span([1,0]^T)）  
@@ -933,11 +935,14 @@ $$
 \Rightarrow
 \text{proj}_W(b)
 = \frac{11}{5}
-\begin{bmatrix}1\\2\end{bmatrix}
+\begin{pmatrix}
+1\\
+2
+\end{pmatrix}
 =
-\begin{bmatrix}
+\begin{pmatrix}
 11/5\\22/5
-\end{bmatrix}
+\end{pmatrix}
 $$
 
 **Python 驗算：**
