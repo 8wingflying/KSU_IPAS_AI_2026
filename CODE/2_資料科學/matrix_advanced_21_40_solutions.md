@@ -775,13 +775,12 @@ C = V \left(\frac{\Sigma^2}{n-1}\right) V^T
 
 ### 第 37 題：正定矩陣判斷
 
-A =
-\\[
-\begin{bmatrix}
+$$
+A =\begin{pmatrix}
 2 & -1\\
 -1 & 2
-\end{bmatrix}
-\\]
+\end{pmatrix}
+$$
 
 對稱矩陣，可用主子式或特徵值判斷。
 
@@ -789,9 +788,10 @@ A =
 
 - 第一主子式：\\(2 > 0\\)
 - 全部行列式：
-\\[
+
+$$
 \det(A) = 2\cdot 2 - (-1)(-1) = 4 - 1 = 3 > 0
-\\]
+$$
 
 對稱矩陣且所有主子式 > 0 → **A 為正定矩陣**。
 
@@ -799,26 +799,26 @@ A =
 
 ### 第 38 題：正交矩陣判斷
 
-Q =
-\\[
-\begin{bmatrix}
+$$
+Q =\begin{pmatrix}
 3/5 & 4/5\\
 -4/5 & 3/5
-\end{bmatrix}
-\\]
+\end{pmatrix}
+$$
 
 檢查 \(Q^T Q = I\\)。
 
 計算：
-\\[
+
+$$
 Q^T =
 \begin{bmatrix}
 3/5 & -4/5\\
 4/5 & 3/5
 \end{bmatrix}
-\\]
+$$
 
-\\[
+$$
 Q^T Q =
 \begin{bmatrix}
 3/5 & -4/5\\
@@ -833,8 +833,9 @@ Q^T Q =
 (3/5)^2 + (-4/5)^2 & 3/5\cdot4/5 + (-4/5)\cdot3/5\\
 4/5\cdot3/5 + 3/5\cdot(-4/5) & (4/5)^2 + (3/5)^2
 \end{bmatrix}
-\\]
-\\[
+$$
+
+$$
 =
 \begin{bmatrix}
 9/25 + 16/25 & 12/25 - 12/25\\
@@ -846,7 +847,7 @@ Q^T Q =
 0 & 1
 \end{bmatrix}
 = I
-\\]
+$$
 
 故 Q 為正交矩陣。
 
@@ -854,17 +855,16 @@ Q^T Q =
 
 ### 第 39 題：冪等矩陣與投影空間
 
-P =
-\\[
-\begin{bmatrix}
+$$
+P =\begin{pmatrix}
 1 & 0\\
 0 & 0
-\end{bmatrix}
-\\]
+\end{pmatrix}
+$$
 
 **(1) 驗證冪等：**
 
-\\[
+$$
 P^2 =
 \begin{bmatrix}
 1 & 0\\
@@ -880,13 +880,13 @@ P^2 =
 0 & 0
 \end{bmatrix}
 = P
-\\]
+$$
 
 **(2) 投影空間說明：**
 
 任意向量 \\(x = [x_1, x_2]^T\\) 經 P 映射：
 
-\\[
+$$
 Px =
 \begin{bmatrix}
 1 & 0\\
@@ -899,7 +899,7 @@ x_1\\x_2
 \begin{bmatrix}
 x_1\\0
 \end{bmatrix}
-\\]
+$$
 
 可見 P 將所有向量投影到 x 軸方向（span([1,0]^T)）  
 → 投影空間 = x 軸。
@@ -913,20 +913,23 @@ x_1\\0
 
 正交投影公式：
 
-\\[
+$$
 \text{proj}_W(b) =
 \frac{v^T b}{v^T v} v,
 \quad v = \begin{bmatrix}1\\2\end{bmatrix}
-\\]
+$$
 
 計算：
-\\[
+
+$$
 v^T b = 1\cdot3 + 2\cdot4 = 3 + 8 = 11
-\\]
-\\[
+$$
+
+$$
 v^T v = 1^2 + 2^2 = 1 + 4 = 5
-\\]
-\\[
+$$
+
+$$
 \Rightarrow
 \text{proj}_W(b)
 = \frac{11}{5}
@@ -935,7 +938,7 @@ v^T v = 1^2 + 2^2 = 1 + 4 = 5
 \begin{bmatrix}
 11/5\\22/5
 \end{bmatrix}
-\\]
+$$
 
 **Python 驗算：**
 ```python
