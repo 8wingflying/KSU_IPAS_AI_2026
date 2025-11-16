@@ -7,6 +7,8 @@
 
 $$ f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right) $$
 
+$$ \left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0} $$
+
 $$
 \begin{pmatrix}
 x \\
