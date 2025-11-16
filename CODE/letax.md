@@ -206,3 +206,12 @@ f & 0 & O_x \\
 z
 \end{bmatrix}
 $$
+
+
+$$
+\begin{bmatrix}
+x \\
+y \\
+1
+\end{bmatrix}
+$$
