@@ -43,3 +43,14 @@ $$
 	   &= d  +f 
 \end{aligned}
 $$
+
+$$
+\begin{array}{|c|c||c|}
+a & b & S \\
+\hline
+0&0&1\\
+0&1&1\\
+1&0&1\\
+1&1&0
+\end{array}
+$$
