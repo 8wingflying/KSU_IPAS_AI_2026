@@ -29,6 +29,14 @@ $$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad a
 #### 其他
 
 $$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\int_0^1 x^2 dx & \int_0^1 x^2 \,{\rm d}x
+\end{array}
+$$
+
+$$
 \begin{pmatrix}
 x \\
 y \\
