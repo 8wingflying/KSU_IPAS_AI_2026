@@ -15,29 +15,33 @@ A = \\(\begin{bmatrix}4 & 1 \\ 2 & 3\end{bmatrix}\\)
 **解答：**
 
 特徵方程式：
-\\[
+
+$$
 \det(A-\lambda I) = 
 \begin{vmatrix}
 4-\lambda & 1\\
 2 & 3-\lambda
 \end{vmatrix}
 = (4-\lambda)(3-\lambda)-2
-\\]
+$$
 
 展開：
-\\[
+
+$$
 (4-\lambda)(3-\lambda)-2 = (12 - 7\lambda + \lambda^2) - 2
 = \lambda^2 - 7\lambda + 10
-\\]
+$$
 
 解二次方程式：
-\\[
+
+$$
 \lambda^2 - 7\lambda + 10 = 0
-\\]
-\\[
+$$
+
+$$
 \lambda = \frac{7 \pm \sqrt{49 - 40}}{2}
 = \frac{7 \pm 3}{2}
-\\]
+$$
 
 故  
 - \(\lambda_1 = 5\)  
