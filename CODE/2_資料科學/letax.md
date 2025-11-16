@@ -1,8 +1,26 @@
 # latex
 - https://gitmind.com/tw/faq/formula-list.html
 - https://www.latexlive.com/
+- https://hackmd.io/@CynthiaChuang/Basic-LaTeX-Commands
 
 ## 範例
+
+$$
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+\begin{bmatrix}
+e & f \\
+g & h
+\end{bmatrix}
+=
+\begin{bmatrix}
+ae+bg & af+bh \\
+ce+dg & cf+dh
+\end{bmatrix}
+$$
+
 
 $$
 \begin{matrix}
