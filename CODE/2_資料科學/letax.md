@@ -6,6 +6,25 @@
 ## 範例
 
 $$
+\begin{bmatrix}
+x \\
+y \\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+f & 0 & O_x \\
+0 & f & O_y \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+\bar{x} \\
+\bar{y} \\
+z
+\end{bmatrix}
+$$
+
+$$
 \left[ 
 \begin{matrix}
 × | |
