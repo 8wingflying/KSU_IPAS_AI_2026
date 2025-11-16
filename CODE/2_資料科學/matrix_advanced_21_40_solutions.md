@@ -357,11 +357,10 @@ $$
 先求特徵值：
 
 $$
-\det(A-\lambda I) =
-\begin{vmatrix}
+\det(A-\lambda I) =\begin{pmatrix}
 5-\lambda & 4\\
 1 & 2-\lambda
-\end{vmatrix}
+\end{pmatrix}
 = (5-\lambda)(2-\lambda) - 4
 $$
 
