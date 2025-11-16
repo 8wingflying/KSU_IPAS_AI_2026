@@ -98,9 +98,10 @@ $$
 $$
 
 故特徵向量可取：
-\\[
+
+$$
 v_2 = \begin{bmatrix}1 \\ -2\end{bmatrix}
-\\]
+$$
 
 **Python 驗算：**
 ```python
