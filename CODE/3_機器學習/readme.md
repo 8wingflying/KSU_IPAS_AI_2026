@@ -9,3 +9,7 @@
 ## 異常偵測(孤立子偵測)實測
 # 主題學習
 - iris 鳩尾花資料集的分析
+
+
+## 舊課程
+- https://github.com/MyDearGreatTeacher/ML202302/tree/main
