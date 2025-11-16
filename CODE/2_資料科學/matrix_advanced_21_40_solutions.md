@@ -10,7 +10,12 @@
 
 ### 第 21 題：求特徵值（2×2）
 
-$$ A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix} $$
+$$ 
+A = \begin{pmatrix}
+4 & 1 \\
+2 & 3
+\end{pmatrix}
+$$
 
 **解答：**
 
