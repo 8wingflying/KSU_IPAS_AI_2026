@@ -70,7 +70,11 @@ A 同上。
 1. 對 $\lambda_1 = 5$：求 $(A-5I)v=0$
 
 $$
-A-5I = \begin{pmatrix}-1 & 1 \\ 2 & -2\end{pmatrix}
+A-5I = 
+\begin{pmatrix}
+-1 & 1 
+\\ 2 & -2
+\end{pmatrix}
 $$
 
 解：
