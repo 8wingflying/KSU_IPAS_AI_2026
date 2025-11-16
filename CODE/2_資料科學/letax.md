@@ -36,3 +36,10 @@ $$
 -6x + 3y + 2z
 \end{cases}
 $$
+
+$$
+\begin{aligned}		
+	a &= b + c \\
+	   &= d  +f 
+\end{aligned}
+$$
