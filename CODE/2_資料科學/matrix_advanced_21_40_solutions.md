@@ -309,7 +309,7 @@ A = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-前面求得特徵值：\(\lambda_1 = 3, \lambda_2 = 1\)
+前面求得特徵值：$\lambda_1 = 3, \lambda_2 = 1$
 
 **驗證：**
 
@@ -402,19 +402,31 @@ $$
 D 為對角矩陣：
 
 $$
-D = \begin{bmatrix}6 & 0\\0 & 1\end{bmatrix}
+D = \begin{pmatrix}
+6 & 0\\
+0 & 1
+\end{pmatrix}
 $$
 
 $$
-D^{10} = \begin{bmatrix}6^{10} & 0\\0 & 1^{10}\end{bmatrix}
-= \begin{bmatrix}6^{10} & 0\\0 & 1\end{bmatrix}
+D^{10} = \begin{pmatrix}
+6^{10} & 0
+\\0 & 1^{10}
+\end{pmatrix}
+= \begin{pmatrix}
+6^{10} & 0\\
+0 & 1
+\end{pmatrix}
 $$
 
-實際上要算出數值矩陣，需要求出 P 與 \(P^{-1}\)，  
+實際上要算出數值矩陣，需要求出 P 與 $P^{-1}$，  
 但**理論上**已可表示：
 
 $$
-A^{10} = P \begin{bmatrix}6^{10} & 0\\0 & 1\end{bmatrix} P^{-1}
+A^{10} = P \begin{pmatrix}
+6^{10} & 0
+\\0 & 1
+\end{pmatrix} P^{-1}
 $$
 
 **Python 驗算（直接次方）：**
@@ -439,26 +451,26 @@ A =\begin{pmatrix}
 \end{pmatrix}
 $$
 
-奇異值為 \(\sqrt{A^T A}\) 的特徵值開根號。
+奇異值為 $\sqrt{A^T A}$ 的特徵值開根號。
 
 $$
 A^T A =
-\begin{bmatrix}
+\begin{pmatrix}
 3 & 0\\
 4 & 0
-\end{bmatrix}
-\begin{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
 3 & 4\\
 0 & 0
-\end{bmatrix}
+\end{pmatrix}
 =
-\begin{bmatrix}
+\begin{pmatrix}
 9 & 12\\
 12 & 16
-\end{bmatrix}
+\end{pmatrix}
 $$
 
-求 \(A^T A\) 特徵值：
+求 $A^T A$ 特徵值：
 
 $$
 \det(A^T A - \lambda I) =
@@ -478,8 +490,8 @@ $$
 故特徵值為 25, 0。  
 奇異值為其非負平方根：
 
-- \(\sigma_1 = 5\)  
-- \(\sigma_2 = 0\)
+- $\sigma_1 = 5$  
+- $\sigma_2 = 0$
 
 **Python 驗算：**
 ```python
@@ -512,7 +524,7 @@ SVD：\\(A = U \Sigma V^T\\)
 
 - V 的欄向量為「輸入空間」的正交主軸  
 - U 的欄向量為「輸出空間」的正交主軸  
-- \(\Sigma\\) 中非零奇異值 5 對應一條主軸方向，其餘為壓扁成 0。
+- $\Sigma$ 中非零奇異值 5 對應一條主軸方向，其餘為壓扁成 0。
 
 因 rank = 1，  
 單位球在 A 映射後為一條線段（橢圓退化），  
