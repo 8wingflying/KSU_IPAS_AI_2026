@@ -13,6 +13,21 @@ $$\frac{a-1}{b-1} \quad and \quad {a+1\over b+1}$$
 
 $$ f(x_1,x_2,\underbrace{\ldots}_{\rm ldots} ,x_n) = x_1^2 + x_2^2 + \underbrace{\cdots}_{\rm cdots} + x_n^2 $$
 
+$$\vec{a} \cdot \vec{b}=0$$
+
+#### 微積分
+
+$$\int_0^1 {x^2} \,{\rm d}x $$
+
+$$\frac{\partial x}{\partial y} $$  
+
+$$ \lim_{n \to +\infty} \frac{1}{n(n+1)} \quad and \quad \lim_{x\leftarrow{sample}} \frac{1}{n(n+1)} $$
+
+$$\sum_{i=1}^n \frac{1}{i^2} \quad and \quad \prod_{i=1}^n \frac{1}{i^2} \quad and \quad \bigcup_{i=1}^{2} R$$
+
+
+#### 其他
+
 $$
 \begin{pmatrix}
 x \\
