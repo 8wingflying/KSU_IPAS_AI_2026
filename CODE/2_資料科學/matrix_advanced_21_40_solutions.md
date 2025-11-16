@@ -10,7 +10,7 @@
 
 ### 第 21 題：求特徵值（2×2）
 
-A = \\(\begin{bmatrix}4 & 1 \\ 2 & 3\end{bmatrix}\\)
+A = $$(\begin{bmatrix}4 & 1 \\ 2 & 3\end{bmatrix}$$
 
 **解答：**
 
