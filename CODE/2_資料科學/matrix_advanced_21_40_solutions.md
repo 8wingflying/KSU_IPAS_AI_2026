@@ -111,7 +111,10 @@ $$
 故特徵向量可取：
 
 $$
-v_2 = \begin{bmatrix}1 \\ -2\end{bmatrix}
+v_2 = \begin{pmatrix}
+1 \\ 
+-2
+\end{pmatrix}
 $$
 
 **Python 驗算：**
